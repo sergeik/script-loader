@@ -11,10 +11,20 @@
   <h1>Script Loader</h1>
 </div>
 
+<h2 align=center>Purporse of fork</h2>
+Current fork of script-loader project improves naming of evaled script.
+
+Chrome Dev Tool with original **script-loader**:
+![Chrome Dev Tool with original script-loader](assets/chrome-dev-tool-before.png)
+ 
+Chrome Dev Tool with current **script-loader** fork:
+![Chrome Dev Tool with updated script-loader](assets/chrome-dev-tool-after.png)
+
+
 <h2 align="center">Install</h2>
 
 ```bash
-npm install --save-dev script-loader
+npm install --save-dev sergeik/script-loader
 ```
 
 <h2 align="center">Usage</h2>
@@ -53,7 +63,8 @@ import exec from 'script-loader!./script.js';
 
 |                    Name                     |         Type          |     Default     | Description                                 |
 | :-----------------------------------------: | :-------------------: | :-------------: | :------------------------------------------ |
-|        **[`sourceMap`](#sourcemap)**        |      `{Boolean}`      |     `false`     | Enable/Disable Sourcemaps
+|        **[`sourceMap`](#sourcemap)**        |      `{Boolean}`      |     `false`     | Enable/Disable Sourcemaps                   |
+|        **[`rootFolders`](#rootFolders)**    |       `{String[]}`    |     `null`      | Root folders to remove from sourceUrl
 
 ### `sourceMap`
 
@@ -61,6 +72,14 @@ Type: `Boolean`
 Default: `false`
 
 To include source maps set the `sourceMap` option.
+
+### `rootFolders`
+
+Type: `String[]`
+Default: null
+
+List of root folders that should be removed from eval sourceURL property.
+
 
 **webpack.config.js**
 ```js
