@@ -15,10 +15,10 @@
 Current fork of script-loader project improves naming of evaled script.
 
 Chrome Dev Tool with original **script-loader**:
-![Chrome Dev Tool with original script-loader](https://github.com/sergeik/script-loader/assets/chrome-dev-tool-before.PNG)
+![Chrome Dev Tool with original script-loader](https://raw.githubusercontent.com/sergeik/script-loader/master/assets/chrome-dev-tool-before.PNG)
  
 Chrome Dev Tool with current **script-loader** fork:
-![Chrome Dev Tool with updated script-loader](https://github.com/sergeik/script-loader/assets/chrome-dev-tool-after.PNG)
+![Chrome Dev Tool with updated script-loader](https://raw.githubusercontent.com/sergeik/script-loader/master/assets/chrome-dev-tool-after.PNG)
 
 
 <h2 align="center">Install</h2>
