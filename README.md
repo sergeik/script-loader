@@ -11,14 +11,14 @@
   <h1>Script Loader</h1>
 </div>
 
-<h2 align=center>Purporse of fork</h2>
+<h2 align=center>Purpose of fork</h2>
 Current fork of script-loader project improves naming of evaled script.
 
 Chrome Dev Tool with original **script-loader**:
-![Chrome Dev Tool with original script-loader](assets/chrome-dev-tool-before.png)
+![Chrome Dev Tool with original script-loader](https://github.com/sergeik/script-loader/assets/chrome-dev-tool-before.PNG)
  
 Chrome Dev Tool with current **script-loader** fork:
-![Chrome Dev Tool with updated script-loader](assets/chrome-dev-tool-after.png)
+![Chrome Dev Tool with updated script-loader](https://github.com/sergeik/script-loader/assets/chrome-dev-tool-after.PNG)
 
 
 <h2 align="center">Install</h2>
