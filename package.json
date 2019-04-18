@@ -16,10 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/webpack-contrib/script-loader.git"
+    "url": "https://github.com/sergeik/script-loader.git"
   },
   "bugs": {
-    "url": "https://github.com/webpack/script-loader/issues"
+    "url": "https://github.com/sergeik/script-loader/issues"
   },
-  "homepage": "https://github.com/webpack/script-loader"
+  "homepage": "https://github.com/sergeik/script-loader"
 }
